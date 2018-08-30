@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.header {
+  background-color: #f4483e;
+  padding: 0 0.5rem;
+  height: 0.44rem;
+  position: relative;
+  color: #fff;
+}
+.header .left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0.5rem;
+  height: 0.44rem;
+  text-align: center;
+  line-height: 0.4rem;
+  color: #fff;
+  font-size: 0.5rem;
+}
+.header h3 {
+  height: 0.44rem;
+  text-align: center;
+  line-height: 0.44rem;
+  overflow: hidden;
+}
+.content .title {
+  overflow: hidden;
+  position: relative;
+}
+.content .title ul {
+  width: 200%;
+}
+.content .title ul li {
+  float: left;
+  margin: 0 0.12rem 0.02rem 0.12rem;
+}
+.content .title ul li a {
+  display: block;
+  height: 0.44rem;
+  font-size: 0.12rem;
+  line-height: 0.44rem;
+}
+.content .title ul li.current {
+  color: red;
+  border-bottom: 0.02rem solid red;
+}
+.content .title button {
+  width: 0.38rem;
+  height: 0.38rem;
+  background-color: #eee;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.content .list {
+  border-top: 0.04rem solid #f1f1f1;
+  padding-top: 0.05rem;
+  padding-bottom: 0.05rem;
+  padding-left: 0.03rem;
+}
+.content .list img {
+  float: left;
+  width: 1.6rem;
+  height: 1.3rem;
+}
+.content .list .box {
+  margin-top: 0.06rem;
+  overflow: hidden;
+  padding-left: 0.05rem;
+  color: red;
+}
+.content .list .box .info {
+  font-size: 0.61rem;
+}
+.content .list .box .info p {
+  margin-bottom: 0.1rem;
+  font-size: 0.16rem;
+}
+.content .list .box .info i {
+  font-size: 0.25rem;
+  color: red;
+}
+.content .list .box .info em {
+  color: red;
+  margin-left: 0.05rem;
+  font-size: 0.10rem;
+}
+.content .list .box .info del {
+  font-size: 0.12rem;
+  color: #ccc;
+}
+.content .list .box .youhui .bar {
+  position: relative;
+  padding-left: 34%;
+}
+.content .list .box .youhui .bar i {
+  float: left;
+  width: 30%;
+  height: 0.15rem;
+  line-height: 0.15rem;
+  background-color: rgba(245, 82, 82, 0.5);
+  border-radius: 0.3rem;
+  border: 0.01rem solid #da5656;
+  position: absolute;
+  top: 0.08rem;
+  left: 0.02rem;
+  text-align: center;
+  font-size: 0.08rem;
+  color: #fff;
+  font-weight: 700;
+}
+.content .list .box .youhui .bar b {
+  font-size: 0.12rem;
+  color: #ce2222;
+}
+.content .list .box .youhui .bottom {
+  margin-top: 0.1rem;
+  position: relative;
+}
+.content .list .box .youhui .bottom a:first-child {
+  border: 0.01rem dashed red;
+  height: 0.3rem;
+  line-height: 0.3rem;
+  font-size: 0.12rem;
+  padding: 0 0.08rem;
+  color: red;
+}
+.content .list .box .youhui .bottom a:last-child {
+  position: absolute;
+  right: 0.3rem;
+  top: 0;
+  width: 1rem;
+  height: 0.28rem;
+  line-height: 0.28rem;
+  border-radius: 0.03rem;
+  text-align: center;
+  background-color: #f13131;
+  color: #fff;
+  font-size: 0.12rem;
+}

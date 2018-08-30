@@ -1,0 +1,219 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.container {
+  width: 100%;
+  max-width: 750px;
+  min-width: 320px;
+  height: 100%;
+  margin: 0 auto;
+}
+.header {
+  width: 100%;
+  height: 0.9rem;
+  background-color: #FF841D ;
+  border-bottom: 1px solid #e6e6e6;
+}
+.header .logo {
+  width: 3.71rem;
+  height: 0.5rem;
+  float: left;
+}
+.header .logo img {
+  margin: 0.2rem;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.header .app {
+  width: .68rem;
+  height: .68rem;
+  float: right;
+  margin: 0.1rem;
+}
+.header .app img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.search {
+  width: 100%;
+  background-color: #FFF;
+  position: relative;
+  padding-right: 1.44rem;
+  padding: .15rem;
+  padding-left: 0.05rem;
+  border-bottom: 0.3rem solid #F1F1F1;
+}
+.search .inp {
+  height: 0.56rem;
+  padding-right: 1.44rem;
+}
+.search .inp .search-input {
+  background-color: #F1F1F1;
+  border-radius: 0.5rem;
+  width: 100%;
+  height: 100%;
+  padding-left: 0.2rem;
+  margin-top: 0rem;
+  font-size: .2rem;
+  -webkit-appearance: none;
+  outline: none;
+  text-shadow: none;
+}
+.search .btn {
+  width: 1.3rem;
+  height: 0.56rem;
+  position: absolute;
+  right: 0rem;
+  top: 0rem;
+  border-radius: 0.3rem;
+  margin: 0.1rem;
+  background-color: #FF841D;
+  color: #FFF;
+  font-size: 0.2rem;
+}
+.pro {
+  width: 100%;
+  padding-top: 0.2rem;
+  border-bottom: 2px solid #ccc;
+}
+.pro a {
+  float: left;
+  width: 25%;
+  height: 1.6rem;
+  text-align: center;
+  padding: 0.1rem 0.4rem;
+}
+.pro a img {
+  display: block;
+  width: 100%;
+}
+.pro a p {
+  font-size: 0.12rem;
+  text-align: center;
+  margin-top: 0.1rem;
+}
+.list .title {
+  width: 100%;
+  height: 0.35rem;
+  padding-left: 0.1rem;
+  background-color: #ff9000;
+  position: relative;
+}
+.list .title .left {
+  font-size: 0.16rem;
+  color: #FFF;
+  font-weight: normal;
+  position: absolute;
+  top: .05rem;
+  left: 0.1rem;
+}
+.list .title img {
+  position: absolute;
+  width: 0.2rem;
+  height: 0.2rem;
+  right: 0.1rem;
+  top: 0.07rem;
+}
+.list .content .contentList {
+  padding: 0.14rem .08rem;
+  position: relative;
+  border-bottom: 1px solid #ccc;
+}
+.list .content .contentList .pic {
+  position: absolute;
+  left: 0rem;
+  top: 0;
+}
+.list .content .contentList .pic img {
+  width: 1rem;
+  height: 1rem;
+}
+.list .content .contentList .top {
+  padding-left: .9rem;
+  position: relative;
+}
+.list .content .contentList .top p {
+  font-size: .12rem;
+  height: .7rem;
+}
+.list .content .contentList .top p span {
+  color: red;
+  font-size: 14px;
+}
+.list .content .contentList .top .bottom {
+  font-size: 12px;
+  position: relative;
+  color: #a1a1a1;
+}
+.list .content .contentList .top .bottom .right {
+  position: absolute;
+  right: 0rem;
+  top: 0;
+}
+.more {
+  border: .02rem solid #ccc;
+  text-align: center;
+  border-radius: 4px;
+  background-color: #F9F9F9;
+  margin: 0rem .2rem;
+  margin-top: .1rem;
+}
+.more a {
+  display: block;
+  line-height: 30px;
+  font-size: 13px;
+}
+.title {
+  width: 100%;
+  height: 0.35rem;
+  padding-left: 0.1rem;
+  background-color: #ff9000;
+  position: relative;
+  margin-top: .2rem;
+}
+.title .left {
+  font-size: 0.16rem;
+  color: #FFF;
+  font-weight: normal;
+  position: absolute;
+  top: .05rem;
+  left: 0.1rem;
+}
+.title img {
+  position: absolute;
+  width: 0.2rem;
+  height: 0.2rem;
+  right: 0.1rem;
+  top: 0.07rem;
+}
+.footer {
+  padding-top: .2rem;
+  background-color: #efefef;
+  padding-bottom: .6rem;
+}
+.footer .end {
+  margin-top: .2rem;
+  line-height: .34rem;
+  height: 0.34rem;
+}
+.footer .end a {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+  font-size: .02rem;
+  height: 0.5rem;
+  line-height: .5rem;
+  border: 1px solid #c4c4c4;
+}
+.footer p {
+  margin-top: .3rem;
+  text-align: center;
+  font-size: .12rem;
+}
+.footer p span {
+  color: red;
+}

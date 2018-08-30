@@ -1,0 +1,226 @@
+body{
+  width: 100%;
+  height: 100%;
+}
+.cate-header{
+  height: .5rem;
+  background-color:#FF841D;
+  border-bottom:1px solid #eee;
+  .logo{
+    float:left;
+    width: 4.23rem;
+    height:.49rem;
+    padding:.08rem;
+  }
+  .app{
+    float:right;
+    width:.48rem;
+    height:.48rem;
+      padding:.04rem;
+  }
+}
+.search{
+  padding:.1rem;
+  background-color: #fff;
+  position: relative;
+  .inp{
+    padding-right:1.4rem;
+    overflow: hidden;
+    input{
+      width: 100%;
+      height: .3rem;
+      border:none;
+      background-color: #f1f1f1;
+      line-height: .3rem;
+      border-radius:.15rem;
+      padding-left:.2rem;
+      padding-right:.5rem;
+      font-size:.12rem;
+    }
+  }
+    button{
+      position: absolute;
+      width: 0.63rem;
+      height: .3rem;
+      background-color:#ff841d;
+      color:#fff;
+      border:none;
+      line-height: .3rem;
+      top:.1rem;
+      right:.3rem;
+      font-size:.16rem;
+      border-radius:.3rem;
+    }
+  
+}
+.nav{
+  height: 0.4rem;
+  background-color: #ebebeb;
+  background-image:linear-gradient(to top,rgba(255,255,255,0),(#ebebeb));
+  border-top:0.02rem solid #ebebeb;
+  border-bottom:0.02rem solid #ccc;
+  line-height: 0.38rem;
+  padding-left:0.08rem;
+  font-size:0.25rem;
+  a{
+    color:#000;
+  }
+}
+.aside{
+  width: 100%;
+  border-bottom:0.01rem solid #ccc;
+  padding-left:0.1rem;
+  background-color:#eee;
+  height:0.4rem;
+  line-height: 0.4rem;
+  font-size:0.22rem;
+  color:#874604;
+}
+.pt ul li{
+  height: 1rem;
+  padding:0.18rem ;
+  border-bottom:0.02rem solid #ccc;
+  
+  .rank{
+    background-color: #ccc;  
+    width: 0.3rem;
+    height: 0.3rem;
+    text-align: center;
+    line-height: 0.3rem;
+    color:#fff;
+    float:left;
+ 
+ 
+  
+}
+  .desc{
+    float:left;
+    margin:0.02rem 0 0 0.2rem;
+    p:first-child{
+      color:#000;
+      font-size:0.2rem;
+    }
+    p:last-child{
+      font-size:0.16rem;
+      margin-top:0.06rem;
+      color:#999;
+    }
+  }
+}
+.pt ul li:nth-child(2) .rank{
+  background-color:#ff9314;
+}
+.pt ul li:nth-child(3) .rank{
+  background-color: greenyellow;
+}
+.pt ul li:first-child .rank{
+  background-color: red;
+}
+
+.pro ul li{
+  height: 1.6rem;
+  border-bottom:0.02rem solid #f3f3f3;
+  padding:0.2rem 0.25rem 0.1rem 0.1rem ;
+  .img{
+    float:left;
+    img{
+      display:block;
+      width: 1rem;
+      height:1rem;
+      margin-right:0.1rem;
+    }
+  }
+  .desc{
+
+    overflow: hidden;
+    position: relative;
+    height:1.2rem;
+    p{
+      font-size:0.2rem;
+      color:#333;
+      line-height: 0.3rem;
+      word-break:break-all;
+    }
+    .center{
+      position: absolute;
+      bottom:0.25rem;
+      left:0rem;
+      width: 100%;
+      span:first-child{
+        font-size:0.3rem;
+        color:#ea3900;
+      }
+      span:last-child{
+        display:inline-block;
+        width: 1rem;
+        height: 0.4rem;
+        vertical-align: middle;
+        background-image:url(../images/star.svg);;
+        background-size:0.25rem 0.25rem;
+        background-repeat:repeat-x;
+      }
+    }
+    .bottom{
+      position: absolute;
+      bottom:0rem;
+      left:0rem;
+      color:#a1a1a1;
+      font-size:0.12rem;
+      span{
+        margin-right:0.2rem;
+      }
+    }
+  }
+}
+.com ul li{
+  border-bottom:0.02rem solid #ccc;
+  padding:0.22rem;
+  .top{
+    margin-bottom:0.2rem;
+    overflow: hidden;
+    .pic{
+      float:left;
+      margin-right:0.1rem;
+      img{
+        display:block;
+        width: 1rem;
+        height: 1rem;
+      }
+    }
+    p{
+      font-size:0.2rem;
+      color:#9999;
+      line-height: 0.3rem;
+    }
+  }
+  .bottom{
+    background-color: #f8f8f8;
+    border:0.02rem solid #ccc;
+    padding:0.2rem;
+    position: relative;
+    .header{
+      height: 0.3rem;
+      line-height: 0.3rem;
+      font-size:0.2rem;
+      color:#4f6900;
+      .star{
+        display:inline-block;
+        width: 2rem;
+        height: 0.4rem;
+        vertical-align:middle;
+        background: url(../images/star.svg);
+        background-size: 0.4rem 0.4rem;
+        background-repeat:repeat-X;
+      }
+      .time{
+        color:#999;
+      }
+    }
+    .comment{
+      margin-top:0.1rem ;
+      font-size:0.2rem;
+      line-height: 0.3rem;
+      word-break: break-all;
+    }
+  }
+}

@@ -1,0 +1,49 @@
+.header {
+  background-color: #f4483e;
+  padding: 0 0.5rem;
+  height: 0.44rem;
+  position: relative;
+  color: #fff;
+}
+.header .left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0.5rem;
+  height: 0.44rem;
+  text-align: center;
+  line-height: 0.4rem;
+  color: #fff;
+  font-size: 0.5rem;
+}
+.header h3 {
+  height: 0.44rem;
+  text-align: center;
+  line-height: 0.44rem;
+  overflow: hidden;
+}
+.content ul {
+  padding: 0.24rem 0.96rem 0.4rem;
+}
+.content ul li {
+  float: left;
+  height: 0.2rem;
+  line-height: 0.2rem;
+  margin-bottom: 0.1rem;
+  margin-right: 0.1rem;
+  border: 0.02rem solid #dadada;
+  font-size: 0.16rem;
+  text-align: center;
+  padding: 0.2rem  0.3rem;
+  position: relative;
+  box-sizing: content-box;
+  font-size: 0.2rem;
+  background-color: #f4f4f4;
+}
+.content ul li img {
+  width: 0.16rem;
+  height: 0.16rem;
+  position: absolute;
+  left: 0.05rem;
+  top: 0.2rem;
+}
